@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(125, 39%, 94%);
+    font-family: Arial,  sans-serif;
+}
+.container{
+    width: 700px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main-heading{
+    color: #1b5e20;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px gray;
+    letter-spacing: 2px;
+}
+.section-heading{
+    color: #2e7d32;
+    text-align: left;
+    text-decoration: underline;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.intro-para{
+    font-family: 'georgia',serif;
+    font-size: 18px;
+}
+.quote-heading{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #c62828;
+}
+.quote{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #fff9c4;
+    padding: 15px;
+    border-left: 5px solid #fbc02d;
+}
