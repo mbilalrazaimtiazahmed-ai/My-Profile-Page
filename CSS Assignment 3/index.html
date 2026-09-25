@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Center-Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">🎓 Learning Center</div>
+        <ul>
+        <li>Home</li>
+        <li>Courses</li>
+        <li>Student</li>
+        <li class="active">Registration</li>
+        <li>Content</li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <div>
+              <p class="small-blue">JOIN OUR LEARNING COMMUNITY</p>
+              <h1>Student Registration</h1>
+              <p>Fill out the form below to register for your favorite course and start your learning journey with us.</p>
+        </div>
+        <div class="hero-img">🎓📚</div>
+
+    </header>
+
+    <main>
+        <div class="card">
+            <h3>👥 Our Students</h3>
+            <table>
+                <tr><th>Roll No</th><th>Student Name</th><th>Course</th><th>Batch</th><th>Student</th></tr>
+                <tr><td>101</td><td>Ali Raza</td><td>HTML</td><td>Batch 01</td><td><span class="active-s">Active</span></td></tr>
+                <tr><td>102</td><td>Sara Khan</td><td>CSS</td><td>Batch 01</td><td><span class="active-s">Active</span></td></tr>
+                <tr><td>103</td><td>Ahmed Malik</td><td>JavaScript</td><td>Batch 02</td><td><span class="active-s">Active</span></td></tr>
+                <tr><td>104</td><td>Hina Fatima</td><td>React</td><td>Batch 02</td><td><span  class="inactive">Inactive</span></td></tr>
+                <tr><td>105</td><td>Usman Ali</td><td>Python</td><td>Batch 03</td><td><span class="active-s">Active</span></td></tr>
+            </table>
+            
+        </div>
+        <div class="card">
+            <h3>ℹ️Why Join Us❔</h3>
+            <p>✔️ Expert Insturctors <br>✔️ Practical Learning <br>✔️Hand-on Projects <br>✔️ Certificate Programs</p>
+
+        </div>
+        <fieldset class="newsletter-box">
+            <legend>Newsletter</legend>
+            Name: <input type="text"><br><br>
+            Email: <input type="text"><br><br>
+            <input type="submit" value="Subscribe">
+        </fieldset>
+        
+        <div class="right">
+            <div class="card form-card">
+                <h3>👥Registration Form</h3>
+                <label>Full Name *</label><input type="text" placeholder="Enter your full name">
+                <label>Email *</label><input type="email" placeholder="Enter your email">
+                <label>Password *</label><input type="password" placeholder="Enter your password">
+                <label>Contact Number *</label><input type="text" placeholder="03xx-xxxxxxx">
+                <label>Gender *</label>
+                <div><input type="radio" name="g">Male <input type="radio" name="g">Female <input type="radio" name="g">Other</div>
+                <label>Select Course *</label>
+                <div class="check">
+                    <span><input type="checkbox">HTML</span><span><input type="checkbox">React</span>
+                    <span><input type="checkbox">CSS</span><span><input type="checkbox">Python</span>
+                    <span><input type="checkbox">JavaScript</span><span><input type="checkbox">Web Development</span>
+                </div>
+                <label>Address *</label><textarea placeholder="Enter your address"></textarea>
+                <button>Submit Registration</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>@2025 Learning Center.All Rights Reserved.</p>
+        <p>Learn.Grow.Build Your Future</p>
+    </footer>
+    
+</body>
+</html>
